@@ -72,11 +72,15 @@
 //     console.log(c + d);
 // }
 
-const functionThree = () => {
+// const functionThree = () => {
 
-    let a = "ichbinaucheinewortschlange"
-    let b = a.toUpperCase();
-    console.log(b);
+//     let a = "ichbinaucheinewortschlange"
+//     let b = a.toUpperCase();
+//     console.log(b);
+// }
+
+const functionFour = (a, b) => {
+    console.log(a.endsWith(b));
 }
 
-module.exports = functionThree;
+module.exports = functionFour;

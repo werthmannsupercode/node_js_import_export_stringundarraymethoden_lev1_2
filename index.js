@@ -7,7 +7,8 @@ const { method, method2 } = require("./data");
 // const summe = require("./function");
 // const functionOne = require("./function");
 // const functionTwo = require("./function");
-const functionThree = require("./function");
+// const functionThree = require("./function");
+const functionFour = require("./function");
 
 // console.log(method[0]);
 // console.log(method2[0]);
@@ -39,4 +40,5 @@ const functionThree = require("./function");
 // summe();
 // functionOne(2, 7);
 // functionTwo();
-functionThree();
+// functionThree();
+functionFour('Test', 't');
